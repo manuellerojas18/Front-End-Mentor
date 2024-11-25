@@ -17,14 +17,28 @@ div#container{
     background-color: hsl(216, 15%, 48);
 }
 
-p {
+p.texto{
     text-align: center;
     color: white;
     position: absolute;
-    bottom: 40px;
+    bottom: 50px;
     left: 50%;
     transform: translateX(-50%);
     Font-size: 15px;
+}
+p.link{
+    text-align: center;
+    color: white;
+    position: absolute;
+    bottom: 2px;
+    left: 50%;
+    transform: translateX(-50%);
+    Font-size: 15px;
+}
+a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 20px;
 }
 div#imagen{
     position: absolute;

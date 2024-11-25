@@ -1,0 +1,40 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(218, 44%, 22%);
+}
+div#container{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: hsl(216, 15%, 48);
+}
+
+p {
+    text-align: center;
+    color: white;
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    Font-size: 15px;
+}
+div#imagen{
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    background-color: hsl(212, 45%, 89%);
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
+}
+img{
+    width: 100%;
+}
